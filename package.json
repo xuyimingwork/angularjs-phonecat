@@ -36,7 +36,7 @@
     "test": "karma start karma.conf.js",
     "test-single-run": "npm test -- --single-run",
     "preupdate-webdriver": "npm install",
-    "update-webdriver": "webdriver-manager update",
+    "update-webdriver": "webdriver-manager update --proxy http://127.0.0.1:1087",
     "preprotractor": "npm run update-webdriver",
     "protractor": "protractor e2e-tests/protractor.conf.js"
   }
